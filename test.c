@@ -18,8 +18,7 @@ printf("\n");
 printf("Enter the new element: ");
 scanf("%d",&new);
 
-printf("Enter the position: ");
-scanf("%d",&p);
+
 
 for(int i=n;i>=p;i--){
 		   array[i]=array[i-1];
